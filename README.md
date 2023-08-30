@@ -17,19 +17,19 @@ Before you begin, ensure you have the following dependencies installed:
 Clone this repository to your local machine using:
 ```bash
 git clone https://github.com/ho1225/my-todo-app.git
-Navigate to the project directory:
+```
 
+Navigate to the project directory:
 ```bash
 cd my-todo-app
 ```
-Install the required packages:
 
+Install the required packages:
 ```bash
 npm install
 ```
 ## Usage
 Run the development server:
-
 ```bash
 npm run dev
 ```
