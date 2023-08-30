@@ -1,6 +1,6 @@
 # A simple to-do list using React + TypeScript + Vite + Bootstrap
 
--add function
+-add function  
 -delete function
 
 ![image](https://github.com/ho1225/my-todo-app/assets/56968144/73e6a488-537c-4456-99b4-d26c3a36bf07)
@@ -19,13 +19,11 @@ Before you begin, ensure you have the following dependencies installed:
    git clone https://github.com/ho1225/my-todo-app.git
 Navigate to the project directory:
 
-bash
-Copy code
+```bash
 cd my-todo-app
 Install the required packages:
 
-bash
-Copy code
+```bash
 npm install
 Usage
 Run the development server:
