@@ -1,27 +1,36 @@
-# React + TypeScript + Vite
+# A simple to-do list using React + TypeScript + Vite + Bootstrap
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-add function
+-delete function
 
-Currently, two official plugins are available:
+![image](https://github.com/ho1225/my-todo-app/assets/56968144/73e6a488-537c-4456-99b4-d26c3a36bf07)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
 
-## Expanding the ESLint configuration
+Before you begin, ensure you have the following dependencies installed:
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- [Node.js](https://nodejs.org) - Make sure you have Node.js installed.
+- [npm](https://www.npmjs.com/) - npm is needed to manage packages.
 
-- Configure the top-level `parserOptions` property like this:
+## Installation
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+1. Clone this repository to your local machine using:
+   ```bash
+   git clone https://github.com/ho1225/my-todo-app.git
+Navigate to the project directory:
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+bash
+Copy code
+cd my-todo-app
+Install the required packages:
+
+bash
+Copy code
+npm install
+Usage
+Run the development server:
+
+bash
+Copy code
+npm run dev
+Open your browser and go to http://localhost:5173 to use the app.
