@@ -21,14 +21,16 @@ Navigate to the project directory:
 
 ```bash
 cd my-todo-app
+```
 Install the required packages:
 
 ```bash
 npm install
+```
 Usage
 Run the development server:
 
-bash
-Copy code
+```bash
 npm run dev
+```
 Open your browser and go to http://localhost:5173 to use the app.
